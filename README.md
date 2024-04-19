@@ -7,12 +7,14 @@ Es-lint configuration
 npm i --save-dev vite-plugin-eslint eslint-config-react-app eslint
 
 
+
 Tailwind Configuration
 
 npm create vite@latest my-project -- --template react
 cd my-project
 
 npm install -D tailwindcss postcss autoprefixer
+npm install -D prettier prettier-plugin-tailwindcss
 npx tailwindcss init -p
 
  content: [
